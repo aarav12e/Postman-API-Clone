@@ -18,12 +18,6 @@ Try it now: https://postman-api-clone.vercel.app/
 - Shows response status code and response time  
 - Simple, responsive UI — great for demos and learning
 
----
-
-## 📸 Screenshot
-> Replace the image file at `/assets/screenshot.png` in this repo with a screenshot of your app.
-
-![Postman Clone Screenshot](/assets/screenshot.png)
 
 ---
 
@@ -40,3 +34,4 @@ Try it now: https://postman-api-clone.vercel.app/
 ```bash
 git clone <your-repo-url>
 cd <your-repo-folder>
+
