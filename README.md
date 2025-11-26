@@ -2,7 +2,7 @@
 
 [Live Demo](https://postman-api-clone.vercel.app/) · Demo site: `https://postman-api-clone.vercel.app/`
 
-A lightweight Postman-like API client built with modern web tech — send requests (GET, POST, PUT, DELETE), add headers & body, and inspect responses. Designed for learning, demos and quick API testing.
+A lightweight Postman-like API client built with modern web tech — send requests (GET, POST), add headers & body, and inspect responses. Designed for learning, demos and quick API testing.
 
 ---
 
@@ -34,4 +34,12 @@ Try it now: https://postman-api-clone.vercel.app/
 ```bash
 git clone <your-repo-url>
 cd <your-repo-folder>
+
+
+for Demo
+GET:-
+
+https://simple-books-api.glitch.me/books
+
+https://jsonplaceholder.typicode.com/todos/1
 
