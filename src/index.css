@@ -1,13 +1,66 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background-color: hsl(var(--b1));
+  color: hsl(var(--bc));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--b2));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--n));
+  border-radius: 3px;
+}
+
+/* JSON Syntax Highlighting */
+.json-key { color: #ff6c37; }
+.json-string { color: #7ec8e3; }
+.json-number { color: #b5cea8; }
+.json-boolean { color: #569cd6; }
+.json-null { color: #808080; }
+
+/* Method badge colours */
+.method-GET    { color: #49cc90; }
+.method-POST   { color: #fca130; }
+.method-PUT    { color: #61affe; }
+.method-PATCH  { color: #50e3c2; }
+.method-DELETE { color: #f93e3e; }
+.method-HEAD   { color: #9012fe; }
+.method-OPTIONS { color: #0d5aa7; }
+
+/* Smooth tab underline */
+.tab-active-postman {
+  border-bottom: 2px solid #FF6C37 !important;
+  color: #FF6C37 !important;
+}
+
+/* Pre code block */
+pre.json-pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: 'Fira Code', 'Consolas', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 12px;
+  border-radius: 6px;
+  background: hsl(var(--b1));
+  border: 1px solid hsl(var(--n));
+  max-height: 400px;
+  overflow-y: auto;
 }
