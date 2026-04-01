@@ -36,10 +36,5 @@ git clone <your-repo-url>
 cd <your-repo-folder>
 
 
-for Demo
-GET:-
 
-https://simple-books-api.glitch.me/books
-
-https://jsonplaceholder.typicode.com/todos/1
 
