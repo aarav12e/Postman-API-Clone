@@ -66,12 +66,6 @@ Feel free to open an issue or submit a pull request for bug fixes, improvements,
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 > ⭐ Give it a star if you found it useful!  
 > 🍴 Fork it to build your own version.  
 > 🐛 Found a bug? Open an issue — feedback is always appreciated.
